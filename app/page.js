@@ -4,9 +4,6 @@ import { CodeBracketIcon, UserGroupIcon, LightBulbIcon, CpuChipIcon, CloudArrowU
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 
-const DynamicHeader = dynamic(() => import('../components/Header'), {
-  loading: () => <p>Loading...</p>,
-});
 
 const DynamicFooter = dynamic(() => import('../components/Footer'), {
   loading: () => <p>Loading...</p>,
